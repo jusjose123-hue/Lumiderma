@@ -1,0 +1,34 @@
+name: dermatologist_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  file_picker: ^11.0.2
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^8.1.0
+  lottie: ^3.3.3
+  material_bottom_nav_bar: ^0.0.2
+  supabase_flutter: ^2.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/i.jpg"
+  min_sdk_android: 21
